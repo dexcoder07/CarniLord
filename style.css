@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+body{
+    background-color: #bae8e8;
+    background-image: url('bg.png');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Urbanist', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    background-color: #0d2821;
+    align-items: center;
+}
+
+.brand img{
+    width: 65px;
+    height: 61px;
+    /* margin-left: 20px;
+    margin-top: 10px; */
+    padding-right: 10px;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.nav-text{
+    color: aliceblue;
+}
+
+
+.container{
+    min-height: 68vh;
+    font-family: 'Poiret One', cursive;
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 12px;
+    padding: 12px;
+    /* background-image: url('bg2.jpg'); */
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: #11052C;
+    color: #FFE4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+#seek-bar{
+    width: 80vw;
+}
